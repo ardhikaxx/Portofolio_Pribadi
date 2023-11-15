@@ -34,20 +34,24 @@ html {
     text-decoration: none;
     padding: 12px 20px;
     background: #fff;
-    color: #333;
+    color: #000000;
     border: none;
     outline: none;
+    font-weight: 800;
     border-radius: 15px;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .btn>i {
-    margin-left: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: 50px;
+    align-items: center;
 }
 
 .btn:hover {
-    background: #A9071C;
+    background: #CE0000;
     color: #fff;
 }
 
@@ -138,7 +142,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 5px;
-    background: #A9071C;
+    background: #CE0000;
     border-radius: 50px;
 }
 
@@ -182,7 +186,7 @@ nav {
 
 .typedText {
     text-transform: capitalize;
-    color: #A9071C;
+    color: #CE0000;
 }
 
 .featured-text-info {
@@ -197,9 +201,10 @@ nav {
 }
 
 .featured-text-btn>.blue-btn {
-    background: #A9071C;
+    background: #CE0000;
     text-decoration: none;
     color: #fff;
+    font-weight: 800;
 }
 
 .featured-text-btn>.blue-btn:hover {
@@ -228,7 +233,7 @@ nav {
 }
 
 .icon:hover {
-    background-color: #A9071C;
+    background-color: #CE0000;
     color: #fff;
 }
 
@@ -513,7 +518,7 @@ footer {
 .top-footer p {
     font-size: 25px;
     font-weight: 800;
-    color: #A9071C;
+    color: #CE0000;
 }
 
 .middle-footer .footer-menu {
@@ -541,7 +546,7 @@ footer {
     margin-top: 10px;
 }
 .bottom-footer a {
-    color: #A9071C;
+    color: #CE0000;
     font-weight: 800;
 }
 
@@ -557,7 +562,6 @@ footer {
     }
 }
 
-/* ----- MEDIA QUERY == 900px / RESPONSIVE ----- */
 @media only screen and (max-width: 900px) {
     .nav-button {
         display: none;
@@ -650,8 +654,6 @@ footer {
         width: 80%;
     }
 }
-
-/* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
 
 @media only screen and (max-width: 540px) {
     .featured-name {
