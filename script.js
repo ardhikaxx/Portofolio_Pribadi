@@ -62,7 +62,7 @@ const srLeft = ScrollReveal({
 })
 
 srLeft.reveal('.about-info', { delay: 100 })
-srLeft.reveal('.contact-info', { delay: 100 })
+srLeft.reveal('.skills-info', { delay: 100 })
 
 const srRight = ScrollReveal({
     origin: 'right',
@@ -72,7 +72,7 @@ const srRight = ScrollReveal({
 })
 
 srRight.reveal('.skills-box', { delay: 100 })
-srRight.reveal('.form-control', { delay: 100 })
+srRight.reveal('.git-pack', { delay: 100 })
 
 const sections = document.querySelectorAll('section[id]')
 
